@@ -11,3 +11,4 @@ void merge(int arr[], int temp[], int left, int mid, int right);
 void mergeSort(int arr[], int temp[], int left, int right);
 int lengthArray(int arr[]);
 void generateArray(int arr[], int length);
+void menu(int arr[], int length);

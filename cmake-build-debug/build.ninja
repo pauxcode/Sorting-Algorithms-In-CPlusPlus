@@ -97,6 +97,12 @@ build CMakeFiles/Algorithms.dir/src/Utilities/generateArray.cpp.o: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles/Algorithms.dir
   OBJECT_FILE_DIR = CMakeFiles/Algorithms.dir/src/Utilities
 
+build CMakeFiles/Algorithms.dir/src/Utilities/menu.cpp.o: CXX_COMPILER__Algorithms_Debug /home/emily/Workspace/Algorithms/src/Utilities/menu.cpp || cmake_object_order_depends_target_Algorithms
+  DEP_FILE = CMakeFiles/Algorithms.dir/src/Utilities/menu.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles/Algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/Algorithms.dir/src/Utilities
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Algorithms
@@ -105,7 +111,7 @@ build CMakeFiles/Algorithms.dir/src/Utilities/generateArray.cpp.o: CXX_COMPILER_
 #############################################
 # Link the executable Algorithms
 
-build Algorithms: CXX_EXECUTABLE_LINKER__Algorithms_Debug CMakeFiles/Algorithms.dir/src/main.cpp.o CMakeFiles/Algorithms.dir/src/Sorting_Algorithms/bubbleSort.cpp.o CMakeFiles/Algorithms.dir/src/Sorting_Algorithms/quickSort.cpp.o CMakeFiles/Algorithms.dir/src/Utilities/swap.cpp.o CMakeFiles/Algorithms.dir/src/Utilities/printArray.cpp.o CMakeFiles/Algorithms.dir/src/Sorting_Algorithms/insertSort.cpp.o CMakeFiles/Algorithms.dir/src/Sorting_Algorithms/mergeSort.cpp.o CMakeFiles/Algorithms.dir/src/Utilities/generateArray.cpp.o
+build Algorithms: CXX_EXECUTABLE_LINKER__Algorithms_Debug CMakeFiles/Algorithms.dir/src/main.cpp.o CMakeFiles/Algorithms.dir/src/Sorting_Algorithms/bubbleSort.cpp.o CMakeFiles/Algorithms.dir/src/Sorting_Algorithms/quickSort.cpp.o CMakeFiles/Algorithms.dir/src/Utilities/swap.cpp.o CMakeFiles/Algorithms.dir/src/Utilities/printArray.cpp.o CMakeFiles/Algorithms.dir/src/Sorting_Algorithms/insertSort.cpp.o CMakeFiles/Algorithms.dir/src/Sorting_Algorithms/mergeSort.cpp.o CMakeFiles/Algorithms.dir/src/Utilities/generateArray.cpp.o CMakeFiles/Algorithms.dir/src/Utilities/menu.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Algorithms.dir
   POST_BUILD = :
