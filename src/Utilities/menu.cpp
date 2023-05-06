@@ -8,28 +8,28 @@ void menu(int arr[], int length) {
     int op;
 
     while (true) {
-        cout << "Which algorithm do you want to use?\n";
+        cout << "\nWhich algorithm do you want to use?\n";
         cout << "1) Bubble Sort\n";
         cout << "2) Quick Sort\n";
         cout << "3) Insert Sort\n";
         cout << "4) Merge Sort\n";
         cout << "5) Exit\n";
+        cout << "> ";
         cin >> op;
 
         if(!cin) {
-            cout << "Only numbers is valid :)\n";
+            cout << "\nOnly numbers is valid :)\n";
             exit(1);
         }
 
         if (op == 5) {
-            cout << "Bye bye see u later :D";
+            cout << "\nBye bye see u later :D\n";
             exit(0);
         }
 
         generateArray(arr, length);
-        //int arr[10] = {2,4,6,8,10,1,3,5,7,9};
         int arrTemp[length];
-        //int length = sizeof arr / sizeof arr[0];
+
         printArray(arr, length, "Array unsorted");
 
         switch (op) {
